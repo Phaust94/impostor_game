@@ -1,0 +1,213 @@
+"question 1 in English","same question 1, but translated to Ukrainian","question 2 in English","same question 2, but translated to Ukrainian"
+"Cat","Кіт","Tiger","Тигр"
+"Violin","Скрипка","Guitar","Гітара"
+"Doctor","Лікар","Nurse","Медсестра"
+"Beach","Пляж","Desert","Пустеля"
+"Apple","Яблуко","Pear","Груша"
+"Mountain","Гора","Hill","Пагорб"
+"Train","Поїзд","Subway","Метро"
+"Castle","Замок","Palace","Палац"
+"Pirate","Пірат","Sailor","Моряк"
+"Knife","Ніж","Scalpel","Скальпель"
+"Police officer","Поліцейський","Security guard","Охоронець"
+"Spider","Павук","Scorpion","Скорпіон"
+"Rocket","Ракета","Airplane","Літак"
+"Ship","Корабель","Submarine","Підводний човен"
+"Penguin","Пінгвін","Puffin","Пуфін"
+"Chef","Шеф-кухар","Baker","Пекар"
+"Candle","Свічка","Lamp","Лампа"
+"Snowman","Сніговик","Scarecrow","Опудало"
+"Butter","Масло","Cheese","Сир"
+"Soccer ball","Футбольний м’яч","Basketball","Баскетбол"
+"Jungle","Джунглі","Forest","Ліс"
+"Magazine","Журнал","Book","Книга"
+"Bat","Кажан","Bird","Птах"
+"Princess","Принцеса","Queen","Королева"
+"Robot","Робот","Android","Андроїд"
+"Hotel","Готель","Hostel","Хостел"
+"Bus","Автобус","Tram","Трамвай"
+"Doctor","Лікар","Scientist","Науковець"
+"Volcano","Вулкан","Mountain","Гора"
+"Ocean","Океан","Lake","Озеро"
+"Toothbrush","Зубна щітка","Comb","Гребінець"
+"Donut","Пончик","Croissant","Круасан"
+"Soccer player","Футболіст","Tennis player","Тенісист"
+"Librarian","Бібліотекар","Archivist","Архіваріус"
+"Wizard","Чарівник","Magician","Фокусник"
+"Tank","Танк","Jeep","Джип"
+"Microscope","Мікроскоп","Telescope","Телескоп"
+"Skier","Лижник","Snowboarder","Сноубордист"
+"Planet","Планета","Moon","Місяць"
+"Bee","Бджола","Wasp","Оса"
+"Fireplace","Камін","Campfire","Багаття"
+"Detective","Детектив","Spy","Шпигун"
+"Pencil","Олівець","Pen","Ручка"
+"Phone","Телефон","Walkie-talkie","Рація"
+"Painter","Художник","Sculptor","Скульптор"
+"Thief","Злодій","Assassin","Убивця"
+"Map","Карта","Globe","Глобус"
+"Refrigerator","Холодильник","Freezer","Морозильник"
+"Cow","Корова","Buffalo","Буйвіл"
+"Mirror","Дзеркало","Window","Вікно"
+Dog,Собака,Wolf,Вовк
+Coffee,Кава,Tea,Чай
+Book,Книга,Notebook,Зошит
+Beach,Пляж,Desert,Пустеля
+Doctor,Лікар,Nurse,Медсестра
+Love,Любов,Friendship,Дружба
+iPhone,Айфон,Samsung Galaxy,Самсунг Галаксі
+Einstein,Ейнштейн,Newton,Ньютон
+Dragon,Дракон,Wyvern,Віверна
+Sun,Сонце,Moon,Місяць
+Pizza,Піца,Calzone,Кальцоне
+Violin,Скрипка,Cello,Віолончель
+Painting,Картина,Photograph,Фотографія
+Laptop,Ноутбук,Tablet,Планшет
+Jacket,Куртка,Coat,Пальто
+Butter,Масло вершкове,Margarine,Маргарин
+River,Річка,Canal,Канал
+Forest,Ліс,Park,Парк
+King,Король,President,Президент
+Movie,Фільм,Play,Вистава
+Sugar,Цукор,Salt,Сіль
+Gold,Золото,Silver,Срібло
+Milk,Молоко,Yogurt,Йогурт
+Eagle,Орел,Hawk,Яструб
+Bicycle,Велосипед,Scooter,Скутер
+Sofa,Диван,Bench,Лавка
+Orange,Апельсин,Mandarin,Мандарин
+Pillow,Подушка,Bolster,Валик
+Robot,Робот,Android,Андроїд
+Detective,Детектив,Spy,Шпигун
+Coffee,Кава,Espresso,Еспресо
+Ocean,Океан,Sea,Море
+Magazine,Журнал,Newspaper,Газета
+Wine,Вино,Champagne,Шампанське
+Pen,Ручка,Pencil,Олівець
+Shirt,Сорочка,Blouse,Блузка
+Planet,Планета,Star,Зірка
+Lemon,Лимон,Lime,Лайм
+Map,Карта,Globe,Глобус
+Cake,Торт,Pie,Пиріг
+Sculpture,Скульптура,Statue,Статуя
+Keyboard,Синтезатор,Piano,Піаніно
+Frog,Жаба,Toad,Ропуха
+Bus,Автобус,Tram,Трамвай
+Hat,Капелюх,Cap,Кепка
+Island,Острів,Peninsula,Півострів
+Honey,Мед,Syrup,Сироп
+Glasses,Окуляри,Sunglasses,Сонячні окуляри
+Boat,Човен,Ship,Корабель
+Cloud,Хмара,Fog,Туман
+"Albert Einstein","Альберт Ейнштейн","Bill Nye","Білл Най"
+"Leonardo da Vinci","Леонардо да Вінчі","Vincent van Gogh","Вінсент ван Гог"
+"Eiffel Tower","Ейфелева вежа","Leaning Tower of Pisa","Пізанська вежа"
+"Mount Everest","Еверест","K2","К2"
+"Coca-Cola","Кока-Кола","Pepsi","Пепсі"
+"iPhone","Айфон","Samsung Galaxy","Самсунг Галаксі"
+"Facebook","Фейсбук","Instagram","Інстаграм"
+"Harry Potter","Гаррі Поттер","Percy Jackson","Персі Джексон"
+"Mozart","Моцарт","Beethoven","Бетховен"
+"Titanic","Титанік","Lusitania","Лузитанія"
+"Lion","Лев","Tiger","Тигр"
+"Eagle","Орел","Hawk","Яструб"
+"Dolphin","Дельфін","Shark","Акула"
+"Chef","Шеф-кухар","Baker","Пекар"
+"Astronaut","Астронавт","Pilot","Пілот"
+"Poet","Поет","Writer","Письменник"
+"Hurricane","Ураган","Tornado","Торнадо"
+"Blizzard","Хуртовина","Snowstorm","Снігова буря"
+"Pizza","Піца","Burger","Бургер"
+"Coffee","Кава","Tea","Чай"
+"Chocolate","Шоколад","Vanilla","Ваніль"
+"Bicycle","Велосипед","Scooter","Скутер"
+"Violin","Скрипка","Guitar","Гітара"
+"Smartphone","Смартфон","Tablet","Планшет"
+"Mountain","Гора","Volcano","Вулкан"
+"River","Ріка","Waterfall","Водоспад"
+"Forest","Ліс","Jungle","Джунглі"
+"Car","Автомобіль","Truck","Вантажівка"
+"Train","Поїзд","Subway","Метро"
+"Helicopter","Гелікоптер","Drone","Дрон"
+"Jacket","Куртка","Coat","Пальто"
+"Sneakers","Кросівки","Sandals","Сандалі"
+"Hat","Капелюх","Cap","Кепка"
+"Red","Червоний","Orange","Помаранчевий"
+"Blue","Синій","Purple","Фіолетовий"
+"Black","Чорний","Gray","Сірий"
+"Piano","Піаніно","Keyboard","Клавіатура"
+"Drum","Барабан","Tambourine","Бубон"
+"Book","Книга","Magazine","Журнал"
+"Lake","Озеро","Pond","Ставок"
+"Desert","Пустеля","Oasis","Оаза"
+"Castle","Замок","Palace","Палац"
+"Bridge","Міст","Tunnel","Тунель"
+"Sword","Меч","Dagger","Кинджал"
+"Shield","Щит","Armor","Броня"
+"Bread","Хліб","Baguette","Багет"
+"Wine","Вино","Beer","Пиво"
+"Apple","Яблуко","Pear","Груша"
+"Rose","Троянда","Tulip","Тюльпан"
+"Sunflower","Соняшник","Daisy","Маргаритка"
+"Harry Potter","Гаррі Поттер","Frodo Baggins","Фродо Беґінз"
+"Taylor Swift","Тейлор Свіфт","Ariana Grande","Аріана Ґранде"
+"The Godfather","Хрещений батько","Goodfellas","Славні хлопці"
+"Super Mario","Супер Маріо","Sonic the Hedgehog","Їжак Сонік"
+"Star Wars","Зоряні війни","Star Trek","Зоряний шлях"
+"Bill Gates","Білл Гейтс","Steve Jobs","Стів Джобс"
+"Breaking Bad","Пуститися берега","Better Call Saul","Краще подзвоніть Солу"
+"Shakira","Шакіра","Jennifer Lopez","Дженніфер Лопес"
+"Minecraft","Майнкрафт","Roblox","Роблокс"
+"The Beatles","Бітлз","The Rolling Stones","Роллінг Стоунз"
+"Batman","Бетмен","Iron Man","Залізна людина"
+"Leonardo DiCaprio","Леонардо Ді Капріо","Brad Pitt","Бред Пітт"
+"Frozen","Крижане серце","Moana","Моана"
+"Oprah Winfrey","Опри Вінфрі","Ellen DeGeneres","Еллен Дедженерес"
+"Fortnite","Фортнайт","Call of Duty","Кол оф Д'юті"
+"Rihanna","Ріанна","Beyoncé","Бейонсе"
+"The Matrix","Матриця","Inception","Початок"
+"Stranger Things","Дивні дива","The Umbrella Academy","Академія Амбрела"
+"Elon Musk","Ілон Маск","Jeff Bezos","Джефф Безос"
+"Homer Simpson","Гомер Сімпсон","Peter Griffin","Пітер Ґріффін"
+"Twilight","Сутінки","The Hunger Games","Голодні ігри"
+"Da Vinci","Да Вінчі","Michelangelo","Мікеланджело"
+"Barbie","Барбі","Bratz","Братц"
+"Game of Thrones","Гра престолів","The Witcher","Відьмак"
+"Ed Sheeran","Ед Ширан","Shawn Mendes","Шон Мендес"
+"Nike","Найк","Adidas","Адідас"
+"Among Us","Серед нас","Fall Guys","Фолл Ґайс"
+"Wednesday Addams","Венсдей Адамс","Luna Lovegood","Луна Лавґуд"
+"Avatar","Аватар","Titanic","Титанік"
+"Superman","Супермен","Captain America","Капітан Америка"
+Leonardo da Vinci,Леонардо да Вінчі,Michelangelo,Мікеланджело
+Queen Elizabeth II,Королева Єлизавета II,Queen Victoria,Королева Вікторія
+Elon Musk,Ілон Маск,Jeff Bezos,Джефф Безос
+Taylor Swift,Тейлор Свіфт,Beyoncé,Бейонсе
+Charlie Chaplin,Чарлі Чаплін,Buster Keaton,Бастер Кітон
+Marie Curie,Марія Кюрі,Rosalind Franklin,Розалінд Франклін
+William Shakespeare,Вільям Шекспір,Charles Dickens,Чарльз Діккенс
+Lionel Messi,Ліонель Мессі,Cristiano Ronaldo,Кріштіану Роналду
+Star Wars,Зоряні Війни,Star Trek,Зоряний Шлях
+The Lord of the Rings,Володар Перснів,Harry Potter,Гаррі Поттер
+Titanic,Титанік,Avatar,Аватар
+The Simpsons,Сімпсони,Family Guy,Гріффіни
+Friends,Друзі,Seinfeld,Сайнфелд
+The Matrix,Матриця,Inception,Початок
+Minecraft,Майнкрафт,Roblox,Роблокс
+Call of Duty,Кол оф Дьюті,Battlefield,Батлфілд
+Super Mario,Супер Маріо,Sonic the Hedgehog,Сонік
+Chess,Шахи,Go,Ґо
+The Witcher,Відьмак,Skyrim,Скайрім
+The Beatles,The Beatles,The Rolling Stones,The Rolling Stones
+Mozart,Моцарт,Beethoven,Бетховен
+"Bohemian Rhapsody","Богемна Рапсодія","Stairway to Heaven","Сходи до Небес"
+Michael Jackson,Майкл Джексон,Prince,Прінс
+McDonald's,МакДональдз,Burger King,Бургер Кінг
+Nike,Nike,Adidas,Adidas
+Disney,Дісней,Pixar,Піксар
+Coca-Cola,Кока-Кола,Pepsi,Пепсі
+Sherlock Holmes,Шерлок Холмс,Hercule Poirot,Еркюль Пуаро
+Superman,Супермен,Batman,Бетмен
+Mickey Mouse,Міккі Маус,Bugs Bunny,Багз Банні
+Eiffel Tower,Ейфелева вежа,Statue of Liberty,Статуя Свободи
+Amazon River,Річка Амазонка,Nile River,Річка Ніл

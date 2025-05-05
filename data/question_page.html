@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Masked Text Table</title>
+  <style>
+    div {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      margin: 0;
+      padding: 1rem;
+      background-color: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    table {
+      width: 90vw;
+      max-width: 400px;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    td {
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 1.2rem;
+      user-select: none;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      white-space: pre-wrap;
+      word-break: break-word;
+      min-height: 3rem;
+    }
+    td.masked {
+      color: black;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+  Seed {{ seed }}
+  <div>
+  <table>
+    <tr>
+      <th>
+        Player ID
+      </th>
+      <th>
+        Question {{ qn }}
+      </th>
+      <th>
+        Питання {{ qn }}
+      </th>
+    </tr>
+    {% for question in questions %}
+      <tr>
+        <td>
+          {{ question['player_id'] }}
+        </td>
+        <td
+          class="masked"
+          tabindex="0"
+          aria-label="Masked text cell 1"
+          data-text="{{ question['question_en'] }}"
+        >
+          <!-- Black squares will be inserted by JS -->
+        </td>
+        <td
+          class="masked"
+          tabindex="0"
+          aria-label="Masked text cell 1"
+          data-text="{{ question['question_uk'] }}"
+        >
+          <!-- Black squares will be inserted by JS -->
+        </td>
+      </tr>
+    {% endfor %}
+    {% if add_real_q %}
+    <tr>
+        <td>
+          RealQ
+        </td>
+        <td
+          class="masked"
+          tabindex="0"
+          aria-label="Masked text cell 1"
+          data-text="{{ real_question['question_en'] }}"
+        >
+          <!-- Black squares will be inserted by JS -->
+        </td>
+        <td
+          class="masked"
+          tabindex="0"
+          aria-label="Masked text cell 1"
+          data-text="{{ real_question['question_uk'] }}"
+        >
+          <!-- Black squares will be inserted by JS -->
+        </td>
+      </tr>
+    {% endif %}
+  </table>
+  </div>
+  {% if next_question_url is not none %}
+  <br/>
+  <a href="{{ next_question_url }}">Next question</a>
+  {% endif %}
+  <script>
+    // Replace text with black squares of same length
+    function maskText(text) {
+      // Use black square character ■ (U+25A0)
+      return "■".repeat(10);
+    }
+
+    // Initialize cells with masked text
+    document.querySelectorAll("td.masked").forEach((cell) => {
+      const originalText = cell.getAttribute("data-text");
+      cell.textContent = maskText(originalText);
+
+      cell.addEventListener("click", () => {
+        // If already showing original text, ignore
+        if (cell.textContent === originalText) return;
+
+        cell.textContent = originalText;
+
+        setTimeout(() => {
+          cell.textContent = maskText(originalText);
+        }, 5000);
+      });
+
+      // Keyboard accessibility: Enter or Space triggers click
+      cell.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          cell.click();
+        }
+      });
+    });
+  </script>
+</body>
+</html>
