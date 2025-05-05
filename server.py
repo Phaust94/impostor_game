@@ -13,6 +13,8 @@ import pandas as pd
 
 app = fastapi.FastAPI()
 
+VERSION = "1.1.0"
+
 DATA_DIR = "data"
 
 IMPOSTOR_RANGE_TABLE = [
@@ -244,6 +246,11 @@ async def start_page(
     assignments = get_start_page_assignments(players, seed, kind)
     res = get_start_page_body(assignments)
     return res
+
+
+@app.get("/version")
+async def get_version() -> str:
+    return VERSION
 
 
 if __name__ == "__main__":
